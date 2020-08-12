@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Login Form (Validation)</title>
+<!-- Included CSS File Here -->
+<link rel="stylesheet" href="./login.css"/>
+<!-- Included JS File Here -->
+<script src="login.js"></script>
+</head>
+<body onload="checkCookie()"> 
+    <div class="container">
+        <div class="main">
+            <h2>Login Form with JS Validation</h2>
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username"/>
+                <label>Password :</label>
+                <input type="password" name="password" id="pass"/>
+                
+                <input type="checkbox" name="remember_me" id="remember_me"> Remember me</input>
+                
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+            <span>
+                <b>Note : </b>
+                For this demo use following username and password. <br/>
+                <b>User Name : LTI<br/>Password : 123</b>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
+
+ 
+
+
+
